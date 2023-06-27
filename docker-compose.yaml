@@ -1,14 +1,12 @@
-version: '2.1'
 services:
   verdaccio:
-    build: .
-    container_name: verdaccio
-    environment:
-      - VERDACCIO_PORT
+    image: verdaccio/verdaccio:nightly-master
+    container_name: verdaccio-docker-local-storage-vol
     ports:
-      - $VERDACCIO_PORT:$VERDACCIO_PORT
+      - '4873:4873'
     volumes:
-      - verdaccio-storage:/verdaccio/storage
+      - './storage:/verdaccio/storage'
+      - './conf:/verdaccio/conf'
 volumes:
   verdaccio:
     driver: local

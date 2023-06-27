@@ -1,8 +1,0 @@
-{
-  "extends": "../../.babelrc",
-  "plugins": ["@emotion"],
-  "sourceMaps" : "inline",
-  "presets": [
-    "@babel/preset-react"
-  ]
-}
