@@ -7,7 +7,7 @@
 ![verdaccio gif](https://cdn.verdaccio.dev/readme/readme-website.png)
 
 # Version 6 (Development branch)
-
+test
 > Looking for Verdaccio 5 version? Check the branch `5.x`
 > The plugins for the `v5.x` that are hosted within this organization are located
 > at the [`verdaccio/monorepo`](https://github.com/verdaccio/monorepo) repository, while for the v6.x
